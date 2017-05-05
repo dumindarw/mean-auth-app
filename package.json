@@ -1,0 +1,22 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "description": "MEAN authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies":{
+    "express": "*",
+    "body-parser": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Duminda Wanninayake",
+  "license": "ISC"
+}
